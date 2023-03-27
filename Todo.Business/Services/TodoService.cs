@@ -57,7 +57,7 @@ namespace Todo.Business.Services
 
         public async Task<TodoItem> GetById(int id)
         {
-            return await _todoRepository.Query(x => x.Id == id).FirstAsync();
+            return await _todoRepository.Query(x => x.Id == id).FirstOrDefaultAsync();
         }
 
         public async Task Update(TodoItem todoItem)
