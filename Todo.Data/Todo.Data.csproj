@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Constract\" />
+    <None Remove="Entities\" />
+    <None Remove="Mapping\" />
+    <None Remove="Migrations\" />
+    <None Remove="Repositories\" />
+    <None Remove="Entities\Todo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Constract\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Entities\Todo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.4">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+    <PackageReference Include="MockQueryable.NSubstitute" Version="7.0.0" />
+    <PackageReference Include="MockQueryable.FakeItEasy" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Todo.Common\Todo.Common.csproj" />
+  </ItemGroup>
+</Project>

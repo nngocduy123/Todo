@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{351FE72B-4194-48F5-AEA5-DAA8E43865D7}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Todo.API/Controllers/TodoController.cs">
+    <Files>
+      <File FileName="Todo.API/Controllers/TodoController.cs" Line="34" Column="32" />
+      <File FileName="Todo.Business/Services/TodoService.cs" Line="24" Column="27" />
+      <File FileName="Todo.Data/Entities/Todo/TodoItem.cs" />
+      <File FileName="Todo.Business/Models/Todo/TodoResponse.cs" Line="9" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Todo" expanded="True">
+            <Node name="Todo.API" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="TodoController.cs" selected="True" />
+              </Node>
+              <Node name="Mapping" expanded="True" />
+            </Node>
+            <Node name="Todo.Business" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Constracts" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Todo" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="Todo.Data" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Constract" expanded="True" />
+              <Node name="Entities" expanded="True">
+                <Node name="Todo" expanded="True" />
+              </Node>
+              <Node name="Repositories" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Todo.API PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.Todo.Test FirstBuild="True" />
+</Properties>
