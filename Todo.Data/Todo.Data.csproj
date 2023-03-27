@@ -9,7 +9,6 @@
   <ItemGroup>
     <None Remove="Constract\" />
     <None Remove="Entities\" />
-    <None Remove="Mapping\" />
     <None Remove="Migrations\" />
     <None Remove="Repositories\" />
     <None Remove="Entities\Todo\" />
@@ -17,7 +16,6 @@
   <ItemGroup>
     <Folder Include="Constract\" />
     <Folder Include="Entities\" />
-    <Folder Include="Mapping\" />
     <Folder Include="Migrations\" />
     <Folder Include="Repositories\" />
     <Folder Include="Entities\Todo\" />
