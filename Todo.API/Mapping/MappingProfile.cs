@@ -19,11 +19,11 @@ namespace Todo.API.Mapping
         {
             var offeredDay = arg.DueDate.AddDays(arg.DayConstraint);
 
-            if (offeredDay < DateTime.Now)
+            if (offeredDay.Date < DateTime.Now.Date)
             {
                 return (int)TodoStatusEnums.Expired;
             }
-            else if (arg.DueDate < DateTime.Now) {
+            else if (arg.DueDate.Date < DateTime.Now.Date) {
                 return (int)TodoStatusEnums.OffTrack;
             }
 
