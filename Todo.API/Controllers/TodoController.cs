@@ -8,7 +8,7 @@ namespace Todo.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TodoController : Controller
+    public class TodoController : ControllerBase
     {
         private ITodoService _todoService { get; set; }
         private readonly IMapper _mapper;
